@@ -13,6 +13,10 @@ ol,ul,li {list-style-type:none;}
 a {text-decoration:none; color:#333;}
 .sub_text {
     color:#c9ab81;
+    font-family:'EB Garamond', serif;
+    font-style:italic;
+    font-weight:500;
+    font-size:20px;
 }
 
 
@@ -87,6 +91,7 @@ nav {
     transform:translate(-50%,-50%);
     width:70%;
     text-align:center;
+    font-family:'EB Garamond', serif;
 }
 
 .main_text h1 {
@@ -133,7 +138,9 @@ nav {
     padding:50px;
 }
 .textbox h2 {
-    font-size:50px;
+    font-size:48px;
+    font-weight:500;
+    font-family:'EB Garamond', serif;
 }
 
 .museum {
@@ -183,10 +190,12 @@ nav {
 .textbox2 {
     text-align:left;
     padding:8% 12%;
-    background-color:#f8f8f8;;
+    background-color:#f8f8f8;
 }
 .textbox2 h2 {
     font-size:50px;
+    font-weight:500;
+    font-family:'EB Garamond', serif;
 }
 .textbox2 p {
     line-height:25px;
@@ -233,6 +242,8 @@ nav {
 }
 .textbox3 h2 {
     font-size:50px;
+    font-weight:500;
+    font-family:'EB Garamond', serif;
 }
 
 .slide_button {
@@ -267,10 +278,20 @@ nav {
     margin-top:30px;
     transition:all 0.3 ease;
 }
-.art img {
+
+.art_picture {
+    width:300px;
+    height:450px;
+    overflow:hidden;
+}
+.art_picture img {
     width:100%;
     height:100%;
     position:relative;
+    transition:all 0.5s ease;
+}
+.art_picture img:hover {
+    transform:scale(1.08) translateX(10px);
 }
 
 .artbox {
@@ -281,9 +302,14 @@ nav {
     position:absolute;
     bottom:-70px;
 }
+.artbox .sub_text {
+    font-size:16px;
+}
 .artbox h3 {
     margin-top:15px;
     line-height:28px;
+    font-family:'EB Garamond', serif;
+    font-weight:500;
 }
 
 
@@ -309,6 +335,8 @@ nav {
     right:8%;
     transform:translate(0,-50%);
     line-height:25px;
+    font-weight:500;
+    font-family:'EB Garamond', serif;
 }
 .textbox4 p:first-child {
     font-size:18px;
@@ -334,10 +362,13 @@ nav {
     margin-bottom:30px;
 }
 .textbox5 h2 {
-    font-size:50px;
+    font-size:48px;
+    font-weight:500;
+    font-family:'EB Garamond', serif;
 }
 .textbox5 p {
     margin-top:10px;
+    line-height:1.85em;
 }
 
 .readings {
@@ -365,6 +396,12 @@ nav {
     line-height:1.58em;
     text-align:justify;
     margin-bottom:150px;
+}
+.textbox6 h2 {
+    font-weight:500;
+    font-family:'EB Garamond', serif;
+    font-size:40px;
+    margin:20px 0;
 }
 
 .leftside {
@@ -407,8 +444,14 @@ nav {
 
 .leftnews {
     width:650px;
-    padding:10% 10%;
+    padding:8% 10%;
     line-height:1.85em;
+}
+.textbox7 h2 {
+    font-weight:500;
+    font-family:'EB Garamond', serif;
+    font-size:40px;
+    margin:20px 0;
 }
 
 .rightnews {
@@ -422,6 +465,7 @@ nav {
     margin-bottom:45px;
     font-size:15px;
     padding:5px;
+    cursor:pointer;
 }
 .rightnews button {
     border:1.9px solid #c9ab81;
@@ -455,7 +499,7 @@ nav {
 
 .CURATED {
     width:100%;
-    height:300px;
+    height:340px;
     line-height:1.85em;
     display:flex;
 }
@@ -464,13 +508,125 @@ nav {
 }
 .CURATED .left_visits h2{
     font-size:48px;
+    font-weight:500;
+    font-family:'EB Garamond', serif;
+    margin:20px 0;
 }
 .CURATED .right_visits {
-    padding-top:60px;
+    padding-top:100px;
     width:50%;
 }
 
 .bigimg img {
     width:1300px;
     height:500px;
+}
+
+
+
+
+/* section8 */
+.section8 {
+    width:100%;
+    height:1280px;
+    background-color:#f8f8f8;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.textbox8 {
+    text-align:center;
+    padding-top:160px;
+    padding-bottom:80px;
+}
+.textbox8 h2 {
+    font-size:48px;
+    font-weight:500;
+    font-family:'EB Garamond', serif;
+}
+
+
+.posts {
+    width:1300px;
+    height:auto;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+
+.poster_list {
+    position:relative;
+}
+.poster_img {
+    width:410px;
+    height:600px;
+    cursor:pointer;
+    overflow:hidden;
+}
+.poster_img img:hover {
+    transform:scale(1.07) translateX(10px);
+}
+.poster_img img {
+    width:100%;
+    height:100%;
+    transition:all 0.5s ease;
+}
+
+.poster_text {
+    width:350px;
+    height:130px;
+    background:#f8f8f8;
+    padding:15px 40px 10px 0;
+    line-height:30px;
+    position:absolute;
+    z-index:3;
+    bottom:-55px;
+}
+.poster_text .sub_text {
+    font-size:16px;
+}
+.poster_text p {
+    font-size:23px;
+    letter-spacing:3px;
+    font-family: 'EB Garamond', serif;
+}
+.poster_text p a {
+    transition:all 0.2s ease;
+}
+.poster_text p a:hover {
+    color:#c9ab81
+}
+
+.poster_ex {
+    width:410px;
+    line-height:1.85em;
+    padding-top:50px;
+    background-color:#f8f8f8;
+    font-size:16px;
+}
+
+
+
+
+
+/* section9 */
+.section9 {
+    width:100%;
+}
+
+.textbox9 {
+    padding:50px;
+    text-align:center;
+    padding-top:140px;
+    margin-bottom:30px;
+}
+.textbox9 h2 {
+    font-size:48px;
+    font-weight:500;
+    font-family:'EB Garamond', serif;
+}
+.textbox9 p {
+    margin-top:10px;
+    line-height:1.85em;
 }
