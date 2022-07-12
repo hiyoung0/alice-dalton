@@ -141,6 +141,7 @@ nav {
     font-size:48px;
     font-weight:500;
     font-family:'EB Garamond', serif;
+    letter-spacing:8px;
 }
 
 .museum {
@@ -196,6 +197,7 @@ nav {
     font-size:50px;
     font-weight:500;
     font-family:'EB Garamond', serif;
+    letter-spacing:8px;
 }
 .textbox2 p {
     line-height:25px;
@@ -244,6 +246,7 @@ nav {
     font-size:50px;
     font-weight:500;
     font-family:'EB Garamond', serif;
+    letter-spacing:8px;
 }
 
 .slide_button {
@@ -365,6 +368,7 @@ nav {
     font-size:48px;
     font-weight:500;
     font-family:'EB Garamond', serif;
+    letter-spacing:8px;
 }
 .textbox5 p {
     margin-top:10px;
@@ -452,6 +456,7 @@ nav {
     font-family:'EB Garamond', serif;
     font-size:40px;
     margin:20px 0;
+    letter-spacing:8px;
 }
 
 .rightnews {
@@ -511,6 +516,7 @@ nav {
     font-weight:500;
     font-family:'EB Garamond', serif;
     margin:20px 0;
+    letter-spacing:8px;
 }
 .CURATED .right_visits {
     padding-top:100px;
@@ -544,6 +550,7 @@ nav {
     font-size:48px;
     font-weight:500;
     font-family:'EB Garamond', serif;
+    letter-spacing:8px;
 }
 
 
@@ -613,6 +620,7 @@ nav {
 /* section9 */
 .section9 {
     width:100%;
+    height:100vh;
 }
 
 .textbox9 {
@@ -625,8 +633,165 @@ nav {
     font-size:48px;
     font-weight:500;
     font-family:'EB Garamond', serif;
+    letter-spacing:8px;
 }
 .textbox9 p {
     margin-top:10px;
     line-height:1.85em;
+}
+
+
+.products {
+    width:1300px;
+    height:450px;
+    margin:0 auto;
+    overflow:hidden;
+}
+.prod_slide {
+    width:2930px;
+    height:450px;
+    margin:0 auto;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+.shop_prod {
+    width:300px;
+    height:450px;
+    background-color:#fff;
+}
+.prod_img {
+    width:300px;
+    height:300px;
+    position:relative;
+}
+.prod_img img {
+    width:100%;
+    height:100%;
+}
+.prod_text {
+    text-align:center;
+    width:300px;
+    height:150px;
+    padding-top:20px;
+    font-family:'EB Garamond', serif;
+    line-height:35px;
+}
+.prod_text h4 {
+    font-weight:400;
+    font-size:22px;
+    letter-spacing:3px;
+    transition:all 0.3s ease;
+}
+.prod_text h4:hover {
+    color:#c9ab81
+}
+.prod_text p i {
+    font-size:11px;
+    color:#c9ab81
+}
+.prod_text span {
+    font-size:22px;
+}
+
+.add_cart {
+    width:260px;
+    height:260px;
+    background-color:#fff;
+    position:absolute;
+    top:20px;
+    left:20px;
+    display:none;
+}
+.add_cart button {
+    border:1.9px solid #c9ab81;
+    padding:15px 40px;
+    font-size:14px;
+    background-color:transparent;
+    cursor:pointer;
+    transition:all 0.3s ease;
+    margin-top:50%;
+    transform:translateY(-50%);
+    margin-left:20%;
+}
+.add_cart button:hover {
+    border:1.9px solid #fff;
+    background-color:#c9ab81;
+    color:#fff;
+    opacity:0.8;
+}
+
+
+
+
+/* section10 */
+.section10 {
+    width:100%;
+    height:90vh;
+    background-image:url(../img/dalton\(12\).jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.news {
+    width:1300px;
+    height:540px;
+    background-color:#fff;
+    display:flex;
+}
+
+.leftnews {
+    width:650px;
+    padding:8% 10%;
+    line-height:1.85em;
+}
+.textbox10 h2 {
+    font-weight:500;
+    font-family:'EB Garamond', serif;
+    font-size:40px;
+    margin:20px 0;
+    letter-spacing:8px;
+}
+
+.rightnews {
+    width:650px;
+    padding:12% 2%;
+}
+.rightnews input {
+    border:none;
+    border-bottom:1px solid #333;
+    width:450px;
+    margin-bottom:45px;
+    font-size:15px;
+    padding:5px;
+    cursor:pointer;
+}
+.rightnews button {
+    border:1.9px solid #c9ab81;
+    padding:15px 40px;
+    margin-top:20px;
+    font-size:14px;
+    background-color:transparent;
+    cursor:pointer;
+    transition:all 0.3s ease;
+}
+.rightnews button:hover {
+    border:1.9px solid #fff;
+    background-color:#c9ab81;
+    color:#fff;
+    opacity:0.8;
+}
+
+
+
+
+/* footer */
+footer {
+    width:100%;
+    height:430px;
+    background-color:#272727;
 }
