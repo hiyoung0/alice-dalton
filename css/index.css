@@ -652,6 +652,12 @@ nav {
     margin:0 auto;
     overflow:hidden;
 }
+.products:hover {
+    cursor:grab;
+}
+.products:active {
+    cursor:grabbing;
+}
 .prod_slide {
     width:2930px;
     height:450px;

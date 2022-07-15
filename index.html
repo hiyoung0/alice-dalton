@@ -425,9 +425,9 @@
                 </div>
             </div>
 
-            <div class="products">
-                <div class="prod_slide">
-                    <div class="shop_prod primg1">
+            <div class="products swiper mySwiper">
+                <div class="prod_slide swiper-wrapper">
+                    <div class="shop_prod primg1 swiper-slide">
                         <div class="prod_img">
                             <img src="img/shop-img-1.jpg" alt="shop">
                             <div class="add_cart add1">
@@ -447,7 +447,7 @@
                         </div>
                     </div>
 
-                    <div class="shop_prod  primg2">
+                    <div class="shop_prod primg2 swiper-slide">
                         <div class="prod_img">
                             <img src="img/shop-img-2.jpg" alt="shop">
                             <div class="add_cart add2">
@@ -467,7 +467,7 @@
                         </div>
                     </div>
 
-                    <div class="shop_prod primg3">
+                    <div class="shop_prod primg3 swiper-slide">
                         <div class="prod_img">
                             <img src="img/shop-img-3.jpg" alt="shop">
                             <div class="add_cart add3">
@@ -487,7 +487,7 @@
                         </div>
                     </div>
 
-                    <div class="shop_prod primg4">
+                    <div class="shop_prod primg4 swiper-slide">
                         <div class="prod_img">
                             <img src="img/shop-img-4.jpg" alt="shop">
                             <div class="add_cart add4">
@@ -507,7 +507,7 @@
                         </div>
                     </div>
 
-                    <div class="shop_prod primg5">
+                    <div class="shop_prod primg5 swiper-slide">
                         <div class="prod_img">
                             <img src="img/shop-img-5.jpg" alt="shop">
                             <div class="add_cart add5">
@@ -527,7 +527,7 @@
                         </div>
                     </div>
 
-                    <div class="shop_prod primg6">
+                    <div class="shop_prod primg6 swiper-slide">
                         <div class="prod_img">
                             <img src="img/shop-img-6.jpg" alt="shop">
                             <div class="add_cart add6">
@@ -547,7 +547,7 @@
                         </div>
                     </div>
 
-                    <div class="shop_prod primg7">
+                    <div class="shop_prod primg7 swiper-slide">
                         <div class="prod_img">
                             <img src="img/shop-img-7.jpg" alt="shop">
                             <div class="add_cart add7">
@@ -567,7 +567,7 @@
                         </div>
                     </div>
 
-                    <div class="shop_prod primg8">
+                    <div class="shop_prod primg8 swiper-slide">
                         <div class="prod_img">
                             <img src="img/shop-img-8.jpg" alt="shop">
                             <div class="add_cart add8">
@@ -587,7 +587,7 @@
                         </div>
                     </div>
 
-                    <div class="shop_prod primg9">
+                    <div class="shop_prod primg9 swiper-slide">
                         <div class="prod_img">
                             <img src="img/shop-img-9.jpg" alt="shop">
                             <div class="add_cart add9">
@@ -670,5 +670,10 @@
             </div>
         </div>
     </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {});
+    </script>
 </body>
 </html>
