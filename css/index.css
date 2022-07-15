@@ -122,6 +122,7 @@ nav {
     width:100%;
     height:100vh;
     display:flex;
+    background-color:#fff;
 }
 
 .box {
@@ -232,6 +233,7 @@ nav {
 .section3 {
     width:100%;
     height:100vh;
+    background-color:#fff;
 }
 
 .slide_plate {
@@ -356,6 +358,7 @@ nav {
 .section5 {
     width:100%;
     height:auto;
+    background-color:#fff;
 }
 
 .textbox5 {
@@ -494,6 +497,7 @@ nav {
 /* section7 */
 .section7 {
     width:100%;
+    background-color:#fff;
 }
 
 .Museum_news {
@@ -599,7 +603,7 @@ nav {
     font-family: 'EB Garamond', serif;
 }
 .poster_text p a {
-    transition:all 0.2s ease;
+    transition:all 0.3s ease;
 }
 .poster_text p a:hover {
     color:#c9ab81
@@ -621,6 +625,7 @@ nav {
 .section9 {
     width:100%;
     height:100vh;
+    background-color:#fff;
 }
 
 .textbox9 {
@@ -737,16 +742,16 @@ nav {
     justify-content:center;
 }
 
-.news {
+.get_in {
     width:1300px;
     height:540px;
     background-color:#fff;
     display:flex;
 }
 
-.leftnews {
+.touch {
     width:650px;
-    padding:8% 10%;
+    padding:10% 10%;
     line-height:1.85em;
 }
 .textbox10 h2 {
@@ -756,21 +761,53 @@ nav {
     margin:20px 0;
     letter-spacing:8px;
 }
+.textbox10 p {
+    font-family: 'Alegreya Sans', sans-serif;
+    margin-top:10px;
+    font-size:17px;
+}
+.textbox10 a {
+    font-size:17px;
+    transition:all 0.3s ease;
+}
+.textbox10 i {
+    font-size:17px;
+    margin:20px 15px 0 0 ;
+    transition:all 0.3s ease;
+}
+.textbox10 a:hover {
+    color:#c9ab81;
+}
+.textbox10 a i:hover {
+    color:#c9ab81;
+}
 
-.rightnews {
+.contact_input {
     width:650px;
     padding:12% 2%;
 }
-.rightnews input {
+.contact_input textarea {
+    display:block;
+    width:460px;
     border:none;
     border-bottom:1px solid #333;
-    width:450px;
+    margin-bottom:45px;
+    padding:5px;
+    font-family: 'Alegreya Sans', sans-serif;
+    cursor:pointer;
+}
+.contact_input input {
+    border:none;
+    border-bottom:1px solid #333;
+    width:220px;
+    margin-right:20px;
     margin-bottom:45px;
     font-size:15px;
     padding:5px;
     cursor:pointer;
+    font-family: 'Alegreya Sans', sans-serif;
 }
-.rightnews button {
+.contact_input button {
     border:1.9px solid #c9ab81;
     padding:15px 40px;
     margin-top:20px;
@@ -779,7 +816,7 @@ nav {
     cursor:pointer;
     transition:all 0.3s ease;
 }
-.rightnews button:hover {
+.contact_input button:hover {
     border:1.9px solid #fff;
     background-color:#c9ab81;
     color:#fff;
@@ -792,6 +829,48 @@ nav {
 /* footer */
 footer {
     width:100%;
-    height:430px;
+    height:437px;
     background-color:#272727;
+    position:sticky;
+    bottom:0;
+    left:0;
+    z-index:-1;
+}
+footer p {
+    color:#fff;
+}
+footer a {
+    color:#fff;
+    transition:all 0.3s ease;
+}
+footer a:hover {
+    color:#c9ab81;
+}
+
+.footer_banner {
+    width:1300px;
+    height:437px;
+    margin:0 auto;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.footer_banner div {
+    font-size:17px;
+}
+.footer_banner div h6 {
+    font-size:17px;
+    margin-bottom:25px;
+    font-weight:400;
+    color:#fff;
+}
+.footer_banner div p {
+    margin-bottom:20px;
+}
+
+.banner1 img {
+    width:52px;
+    height:46px;
+    margin-bottom:20px;
 }
